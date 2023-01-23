@@ -1,8 +1,8 @@
 let userAgent = navigator.userAgent;
 
-if(userAgent === "yes")
+if(userAgent === "peterParker")
 {
-  console.log("/test.html");
+  console.log("Try looking at the test.html page of this website");
 }
 else
 {

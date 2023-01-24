@@ -1,10 +1,10 @@
-let userAgent = navigator.userAgent;
+var command = prompt("Hmmm how do I access cookies?");
 
-if(userAgent === "peterParker")
+if(command === "document.cookie")
 {
-  console.log("Try looking at the test.html page of this website");
+  console.log("2f 66 6c 61 67 2e 68 74 6d 6c");
 }
-else
+else(command != "document.cookie")
 {
-   console.log("Only peterParker can view the page");
+  console.log("That's not the right command");
 }

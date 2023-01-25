@@ -1,4 +1,4 @@
-var command = prompt("Hmmm how do I access cookies?");
+var command = prompt("Hmmm how do I access all cookies?");
 
 if(command === "document.cookie")
 {

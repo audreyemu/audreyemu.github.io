@@ -1,3 +1,3 @@
-# introToWebChallenge
+# Audrey Emis Website
 
-Teaches you about robots.txt
+Collection of my computer science passion projects, with probably attrocious css styling B) 

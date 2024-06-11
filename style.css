@@ -1,0 +1,199 @@
+/* Background Rectangle */
+.background-rectangle{
+    position: absolute;
+    width: 1512px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+/* Toolbar */
+.tool-bar{
+    position: absolute;
+    width: 1512px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+
+    background: #EEE2FD;
+}
+
+/* My Projects */
+.my-projects-text{
+    position: absolute;
+    width: 196px;
+    height: 34px;
+    left: 882px;
+    top: 35px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+/* Blog */
+.blog-text{
+    position: absolute;
+    width: 81px;
+    height: 34px;
+    left: 1179px;
+    top: 35px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+/* Other */
+.other-text{
+    position: absolute;
+    width: 99px;
+    height: 34px;
+    left: 1361px;
+    top: 35px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+/* Audrey Emis */
+.audrey-emis-text{
+position: absolute;
+width: 212px;
+height: 34px;
+left: 107px;
+top: 35px;
+
+font-family: 'K2D';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+
+color: #000000;
+}
+
+/* Audrey Emis Title */
+.audrey-emis-title{
+    position: absolute;
+    width: 451px;
+    height: 82px;
+    left: 530px;
+    top: 344px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* - Audrey Emis Subtitle */
+.audrey-emis-subtitle{
+    position: absolute;
+    width: 451px;
+    height: 123px;
+    left: 530px;
+    top: 447px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+/* About Me Text */
+.about-me-text{
+    position: absolute;
+    width: 451px;
+    height: 78px;
+    left: 529px;
+    top: 591px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+/* Flower Logo*/
+.flower-logo{
+    position: absolute;
+    width: 65px;
+    height: 96.68px;
+    left: 42px;
+    top: 13px;
+
+    background: url('pics/flower-logo.png');
+}
+
+/* Lightbulb Logo */
+.lightbulb-logo{
+    position: absolute;
+    width: 70px;
+    height: 85.61px;
+    left: 812px;
+    top: 18px;
+
+    background: url('pics/lightbulb-logo.png');
+}
+
+
+/* Paper Logo */
+.paper-logo{
+    position: absolute;
+    width: 75px;
+    height: 86.57px;
+    left: 1101px;
+    top: 18px;
+
+    background: url('pics/paper-logo.png');
+}
+
+
+/* Smile Logo */
+.smile-logo{
+    position: absolute;
+    width: 65px;
+    height: 71.31px;
+    left: 1288px;
+    top: 25px;
+
+    background: url('pics/smile-logo.png');
+}
+
+
+/* Audrey Emis Photo */
+.audrey-emis-photo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 656px;
+    top: 144px;
+
+    background: url('pics/audrey1.jpg');
+}

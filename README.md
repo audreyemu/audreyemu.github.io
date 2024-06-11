@@ -1,3 +1,3 @@
 # Audrey Emis Website
 
-Collection of my computer science passion projects, with probably attrocious css styling
+Audrey's website to showcase projects, passions, and stuff that interests me!

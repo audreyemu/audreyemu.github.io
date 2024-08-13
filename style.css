@@ -196,3 +196,39 @@ color: #000000;
     top: 144px;
     border-radius: 50%;
 }
+
+/* Title */
+.title{
+    position: absolute;
+    width: 451px;
+    height: 82px;
+    left: 530px;
+    top: 200px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* Subtitle */
+.subtitle{
+    position: relative;
+    width: 451px;
+    height: 82px;
+    left: 530px;
+    top: 200px;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #000000;
+}

@@ -138,6 +138,7 @@ color: #000000;
     height: 78px;
     left: 529px;
     top: 591px;
+    text-align: center;
 
     font-family: 'K2D';
     font-style: normal;
@@ -202,7 +203,7 @@ color: #000000;
     position: absolute;
     width: 451px;
     height: 82px;
-    left: 530px;
+    margin:auto;
     top: 200px;
 
     font-family: 'K2D';
@@ -218,7 +219,7 @@ color: #000000;
 /* Subtitle */
 .subtitle{
     position: absolute;
-    left: 530px;
+    margin:auto;
     top: 315px;
 
     font-family: 'K2D';

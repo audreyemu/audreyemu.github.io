@@ -217,17 +217,15 @@ color: #000000;
 
 /* Subtitle */
 .subtitle{
-    position: relative;
-    width: 451px;
-    height: 82px;
+    position: absolute;
     left: 530px;
-    top: 200px;
+    top: 315px;
 
     font-family: 'K2D';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 83px;
+    line-height: 45px;
     text-align: center;
 
     color: #000000;

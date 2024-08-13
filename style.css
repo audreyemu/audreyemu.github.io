@@ -92,7 +92,7 @@ line-height: 47px;
 color: #000000;
 }
 
-.my-projects-text:hover, .blog-text:hover, .other-text:hover, .audrey-emis-text:hover {
+.my-projects-text:hover, .blog-text:hover, .other-text:hover, .audrey-emis-text:hover, .subtitle:hover {
     color: #FFFFFF;
 }
 
@@ -142,7 +142,7 @@ color: #000000;
     font-family: 'K2D';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 31px;
 
     color: #000000;
@@ -226,7 +226,7 @@ color: #000000;
     font-family: 'K2D';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 83px;
     text-align: center;
 

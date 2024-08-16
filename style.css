@@ -200,6 +200,7 @@ color: #000000;
 
 /* Title */
 .title{
+    margin-top: 150px;
     text-align: center;
 
     font-family: 'K2D';

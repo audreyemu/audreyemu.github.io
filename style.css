@@ -4,6 +4,7 @@
 }
 /* Background Rectangle */
 .background-rectangle{
+    z-index: -1;
     position: absolute;
     width: 1512px;
     height: 982px;

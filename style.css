@@ -93,8 +93,12 @@ line-height: 47px;
 color: #000000;
 }
 
-.my-projects-text:hover, .blog-text:hover, .other-text:hover, .audrey-emis-text:hover, .subtitle:hover {
+.my-projects-text:hover, .blog-text:hover, .other-text:hover, .audrey-emis-text:hover{
     color: #FFFFFF;
+}
+
+button:hover {
+	color: #EEE2FD;
 }
 
 /* Audrey Emis Title */

@@ -232,6 +232,22 @@ button:hover {
     color: #000000;
 }
 
+/* Passage Text */
+.passage-text{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #000000;
+}
+
 button, input[type="submit"], input[type="reset"] {
 	background: none;
 	color: inherit;

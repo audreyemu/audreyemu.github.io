@@ -1,0 +1,67 @@
+# Computer Architecture Notes
+
+In Winter 2024, I took a class called CS M151B, which covered Computer Architecture. I have summarized my notes from this class.
+
+## Instruction Set Architecture (ISA)
+- Level of Program Code
+    - High-level Language
+    - Assembly Language
+        - Textual representation of instructions
+        - Architecture-dependent
+    - Hardware representation
+        - Binary digits to encode instructions and ata
+- Instruction Set Architecture is the interface between hardware and software
+    - Maintains compatibility between different languages
+    - Software sees functional description of hardware (ex: storage locations, operations)
+    - Hardware sees list of instructions and their order
+    - Many possible implementations for a given ISA
+- RISC vs CISC
+    - Reduced Instruction Set Computer
+        - Simple fixed-size instructions that can be executed in one clock cycle
+        - Ex: multiply two numbers with LOAD, PROD, and STORE instructions
+        - More lines of code -> more RAM necessary
+        - Pipelining is possible because all of the instructions take the same amount of time to complete
+    - Complex Instruction Set Computer
+        - Fewer lines of assembly -> more complex instructions
+            - Can have multi-clock complex instructions
+        - Example: MULT could load values, perform the multiplication, and store result all in one instruction
+        - Advantages: easy for compiler to translate HLL to assembly, code is shorter -> takes up less RAM
+        - Focus is on implementing complex instructions directly into the hardware
+    - All widely-used ISAs are RISC except Intel's x86
+    - Most popular RISC ISAs are MIPS, ARM, PowerPC, and RISC-V
+- Types of Operands
+    - Registers
+        - Small storage unit inside the processor
+        - Faster and smaller than memory
+        - Tradeoff between width/size/number of registers and speed/space/power
+        - RISC-V (RV32) has 32 registers, 32-bit each (called word)
+            - x0 is hardwired to zero
+        - Registers stored in a data structure called Register File
+    - Immediates
+        - Constant numbers
+    - Memory
+        - Values can be stored in and accessed from memory
+        - Little Endian: least significant byte stored at lowest memory address
+        - Big Endian: most significant byte stored at lowest memory address
+- Types of Instructions
+    - Arithmetic/ALU
+        - Do arithmetic operation on two registers or a register and an immediate and store in another register
+    - Memory
+        - Load and store
+    - Control-Flow
+        - Jump always changes the program counter
+        - Branch changes the PC only if the condition is met
+- How are functions called?
+    - Callee promises to leave some registers unchanged for the caller. If they need to be modified, callee saves values on the stack and recovers later
+    - When called, the return address has to be saved on the stack
+    - Before returning, the frame pointer has to be recovered
+    - Caller Responsibilities
+        - Puts arguments on the stack
+        - Invokes callee by using call instruction
+    - Callee Responsibilities
+        - Saves reserved registers for caller
+        - Saves old base pointer
+        - Makes room for local variables and executes the code
+        - Puts return value into register
+        - Restores stack frame and key registers
+        - Returns

@@ -1,0 +1,20 @@
+NOW:
+- GDB Scripting
+- Ghidra
+- Advanced and Secure Computer Architecture
+- Secure and Reliable Network
+- Security+ (SY0-701)
+- Microcorruption
+
+LATER:
+
+
+
+OTHER:
+- Adblocker Lab
+- Secure SQLite Libary
+- LA CTF
+- Bruinwalk Security Audit
+- Game Hacking
+- Rootkit Malware
+- Process Injection

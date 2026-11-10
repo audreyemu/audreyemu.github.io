@@ -194,35 +194,107 @@
 <li><a href="projects/./game-hacking.html">TODO: Game Hacking</a></li>
 <li><a href="projects/./rootkit-malware.html">TODO: Rootkit Malware</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
 <p>This section is all about cybersecurity and general computer science tooling and concepts I’ve learned. Expect to see my ACM Cyber talks, CTF writeups, and deep dives.</p>
 <ul>
 <li><a href="blog/./ghidra.html">TODO: Ghidra</a></li>
-<li><a href="blog/./gdb-scripting.html">TODO: GDB Scripting</a></li>
+<li><a href="blog/./gdb-scripting.html">IN PROGRESS: GDB Scripting</a></li>
 <li><a href="blog/./security-plus.html">TODO: Security+ (SY0-701)</a></li>
 <li><a href="blog/./microcorruption.html">TODO: Microcorruption</a></li>
 <li><a href="blog/./process-injection.html">TODO: Process Injection</a></li>
+<li><a href="blog/./wireshark.html">TODO: Wireshark</a></li>
+<li><a href="blog/./burpsuite.html">TODO: BurpSuite</a></li>
+<li><a href="blog/./web-security.html">TODO: Web Security</a></li>
+<li><a href="blog/./rag-ai-agents.html">TODO: RAG &amp; AI Agents</a></li>
+<li><a href="blog/./ai-homomorphic-encryption.html">TODO: AI &amp; Homomorphic Encryption</a></li>
+<li><a href="blog/./cache-side-channel-attacks.html">TODO: Cache Side Channel Attacks</a></li>
+<li><a href="blog/./usb-device-driver.html">TODO: USB Device Driver</a></li>
+<li><a href="blog/./intro-to-linux.html">Intro to Linux</a></li>
+<li><a href="blog/./local-file-inclusion.html">Local File Inclusion</a></li>
+<li><a href="blog/./physical-pentesting.html">Physical Pentesting</a></li>
+<li><a href="blog/./file-forensics.html">File Forensics</a></li>
 </ul>
-<!-- - [TODO: Wireshark](./wireshark.md)
-- [TODO: BurpSuite](./burpsuite.md)
-- [TODO: Web Security](./web-security.md)
-- [TODO: RAG & AI Agents](./rag-ai-agents.md)
-- [TODO: AI & Homomorphic Encryption](./ai-homomorphic-encryption.md)
-- [TODO: Physical Pentesting](./physical-pentesting.md)
-- [TODO: Intro to Linux](./intro-to-linux.md)
-- [TODO: File Forensics](./file-forensics.md) --><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="gdb-scripting"><a class="header" href="#gdb-scripting">GDB Scripting</a></h1>
-<p>GDB stands for GNU Debugger and it can be an extremely useful tool when tracing through code: breakpoints, backtraces, examining memory, etc. I learned to use GDB as part of my Computer Systems class in Spring 2023, but didn’t learn about GDB scripting until my summer internship in 2024.</p>
-<p>GDB Scripting allows you to automate a GDB debugging session. This can be a powerful tool for hackers performing process injection on a process with a watchdog timer: if the process isn’t running for a certain amount of time, the watchdog timer detects that something isn’t right and just suspends execution of the program. Automating the GDB commands allow for an attack that is much faster and much less detectable.</p>
-<div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><h1 id="other"><a class="header" href="#other">Other</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-academy-intro-to-linux"><a class="header" href="#cyber-academy-intro-to-linux">Cyber Academy: Intro to Linux</a></h1>
+<p>by Audrey Emis</p>
+<p>Linux is an extremely important tool to know as someone involved in computer science. Linux is a very popular <strong>free and open source</strong> operating system, which means it manages the communication between the software and hardware on your computer. Different machines have different ways of accessing a linux terminal and there are <strong>tons</strong> of linux commands (along with their options/flags) to cover. We are going through some basic file system traversal using essential linux commands like pwd, cd, and ls. We are also learning how to add and remove files/directories and how to read man pages effectively. There is a lot to learn about the linux operating system and going through OverTheWire's Bandit wargame is a great first step!</p>
+<h2 id="slides"><a class="header" href="#slides">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT62QK7LQWPciT60b1LVuv-NBBeR8mb1axO3qIxeDxqv-Oc9vQy9ZJhZnagbTeqD7pNMa_SsajstMXR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="challenges"><a class="header" href="#challenges">Challenges</a></h2>
+<p>We are solving levels from OverTheWire: Bandit at <a href="https://overthewire.org/wargames/bandit/">overthewire.org/wargames/bandit</a> to learn and practice various fundamental linux commands.</p>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<p>The following are great resources to learn and practice linux commands.</p>
+<ul>
+<li><a href="https://tuxs-great-adventure.netlify.app/">Interactive Linux Tutorial</a>: Made by your own ACM Cyber and ACM Teach committees, this easy to follow tutorial will get you familiar with important linux commands, while also getting familiar with Linux's mascot, Tux.</li>
+<li><a href="https://www.hostinger.com/tutorials/linux-commands">Top 60 Essential Linux Commands</a>: Website listing some must-know linux commands along with quick summaries of how to use them.</li>
+<li><a href="https://github.com/tldr-pages/tldr">tldr</a>: Man pages can be really confusing and dense. tldr is a great resource since it is a simpler help page that focuses on practical examples.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-academy-local-file-inclusion"><a class="header" href="#cyber-academy-local-file-inclusion">Cyber Academy: Local File Inclusion</a></h1>
+<p>by Audrey Emis</p>
+<p>The Linux File System has some built in directories that every directory (even seemingly empty ones) have! . represents the current directory and ../ represents the parent directory. Some web apps take file paths as inputs from users, which can lead to sensitive data being uncovered if the user puts in the right input. They can use "../" to get to parent directories, all the wayup to the root directory, where many more files are accessible. This vulnerability is caused by weak input sanitization or other interesting loopholes in the code. Today, we'll learn about LFI and work through some challenges that cover different LFI techniques!</p>
+<h2 id="slides-1"><a class="header" href="#slides-1">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyZ-0qMoZTTIo1To4MEzs6Rj3PNNhWQyRKakHJfeZkUSiyF_sqz9m01iABEp3W768cxogKg3_ufK6E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="resources-1"><a class="header" href="#resources-1">Resources</a></h2>
+<p>The following are great resources for learning about LFI, mitigations, and bypasses.</p>
+<ul>
+<li><a href="https://portswigger.net/web-security/file-path-traversal#what-is-path-traversal">Portswigger's Path Traversal Lesson</a>: Portwigger is a great resource for all kinds of web security. There are explanations and challenges for LFI at this link.</li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion">HackTricks File Inclusion/Path Traversal</a>: Great post that explains common LFI techniques and how to bypass certain mitigations.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-academy-physical-pentesting"><a class="header" href="#cyber-academy-physical-pentesting">Cyber Academy: Physical Pentesting</a></h1>
+<p>by Audrey Emis</p>
+<p>In order for any system to be completely secure, it must be <strong>physically secure</strong>. There are various interesting techniques to bypass physical security, which we will discuss in this presentation. We will explain how locks work and why lock picking is possible before showing examples of how to exploit different vulnerable door designs. We'll go through some demos with the Flipper Zero, showing off its infrared and RFID capabilities. <strong>Social engineering</strong> also plays a big part in physical pentesting because oftentimes humans can be a vulnerable point in a system's security design.</p>
+<h2 id="slides-2"><a class="header" href="#slides-2">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRtFlmXw0Cent1zu5RCwj0arUi6EqrQZ23VUA6Nd_tWKfNfqDsXhQACJ9Gte6K0VtmDf9N0o9SOpZOF/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="challenges-1"><a class="header" href="#challenges-1">Challenges</a></h2>
+<p>We have lock picking kits and a Flipper Zero for people to perform the demos on their own.</p>
+<h2 id="resources-2"><a class="header" href="#resources-2">Resources</a></h2>
+<p>The following are great resources to learn more about physical pentesting.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=avZOQNt8Ltk">Deviant Interview</a>: Darknet Diaries interview with Deviant, who shares some interesting stories from his time as a physical pentester.</li>
+<li><a href="https://www.youtube.com/watch?v=nLIp4wd0oXs">Linus Tech Tips Flipper Zero Video</a>: Video explaining how a Flipper Zero works and what it can be used for.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-academy-file-forensics"><a class="header" href="#cyber-academy-file-forensics">Cyber Academy: File Forensics</a></h1>
+<p>by Audrey Emis</p>
+<p>At their core, files are just a <strong>series of 1s and 0s</strong>: binary data that represent the contents of a file. You are probably familiar with various file types (jpeg, pdf, txt, etc.) but do you know how your computer knows the type of each file? There are a series of "magic bytes" (or file signatures) at the beginning of a file that indicate the file type, allowing your computer to handle the file appropriately. You will learn how files can be hidden in other files and how to extract them too.</p>
+<h2 id="slides-3"><a class="header" href="#slides-3">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSrbfaeR9nSpADPwBQ-YIc7Li7cOzR_YVmBgArSjymwTlJ08BAnDYSJRU4rCK_3VzQIzFDrGu0WkL8p/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="resources-3"><a class="header" href="#resources-3">Resources</a></h2>
+<p>The following are tools to better understand the contents of a file.</p>
+<ul>
+<li><a href="https://hexed.it/">hexed.it</a>: Online hex editor that decodes the values of the bytes of a file.</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_file_signatures">List of File Signatures</a>: List of "magic bytes" or file signatures for different kinds of files.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="cyber-lab-cache-side-channel-attacks"><a class="header" href="#cyber-lab-cache-side-channel-attacks">Cyber Lab: Cache Side Channel Attacks</a></h1>
+<p>by Audrey Emis</p>
+<p>TODO</p>
+<h2 id="slides-4"><a class="header" href="#slides-4">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQafs5q2pBfOK3PaxwGaghwHj6YuvjdU_PJXAYJxq6LyBxuJL2oD02DZvrnY5jc_oCS9hslH6qNWp7t/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="resources-4"><a class="header" href="#resources-4">Resources</a></h2>
+<p>TODO</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="class-notes"><a class="header" href="#class-notes">Class Notes</a></h1>
+<p>This section is all about what I learned in my courses as an undergraduate Computer Science student at UCLA.</p>
+<ul>
+<li><a href="class-notes/./cs-32.html">TODO: Data Structures &amp; Algorithms</a></li>
+<li><a href="class-notes/./cs-33.html">TODO: Computer Systems</a></li>
+<li><a href="class-notes/./cs-35l.html">TODO: Software Construction</a></li>
+<li><a href="class-notes/./cs-111.html">TODO: Operating Systems</a></li>
+<li><a href="class-notes/./cs-118.html">TODO: Computer Networks</a></li>
+<li><a href="class-notes/./cs-131.html">TODO: Programming Languages</a></li>
+<li><a href="class-notes/./cs-m151b.html">IN PROGRESS: Computer Architecture</a></li>
+<li><a href="class-notes/./cs-180.html">TODO: Algorithms &amp; Complexity</a></li>
+<li><a href="class-notes/./ece-117.html">TODO: Computer Security</a></li>
+<li><a href="class-notes/./ece-209as.html">IN PROGRESS: Advanced and Secure Computer Architecture</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="other"><a class="header" href="#other">Other</a></h1>
 <p>This section is all about my hobbies and interests outside of technology.</p>
 <ul>
 <li><a href="other/./survivor.html">Survivor @ UCLA</a></li>
+<li><a href="other/./roller-coasters.html">TODO: Roller Coasters</a></li>
+<li><a href="other/./musicals.html">TODO: Musicals</a></li>
+<li><a href="other/./hiking-camping-backpacking.html">TODO: Hiking, Camping, and Backpacking</a></li>
+<li><a href="other/./running.html">TODO: Running</a></li>
+<li><a href="other/./crocheting.html">TODO: Crocheting</a></li>
 </ul>
-<!-- - [TODO: Roller Coasters](./roller-coasters.md)
-- [TODO: Musicals](./musicals.md)
-- [TODO: Hiking, Camping, and Backpacking](./hiking-camping-backpacking.md)
-- [TODO: Running](./running.md)
-- [TODO: Crocheting](./crocheting.md) --><div style="break-before: page; page-break-before: always;"></div><h1 id="survivor--ucla"><a class="header" href="#survivor--ucla">Survivor @ UCLA</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="survivor--ucla"><a class="header" href="#survivor--ucla">Survivor @ UCLA</a></h1>
 <p>I have watched every season of Survivor since Season 32 Kaoh Rong in 2016. My parents were fans of the show and we would watch it together every Wednesday. At the time, I only cared about the challenges and would have my parents call me out of my room whenever a challenge came on.</p>
 <p>But as I’ve grown, I’ve realized the challenges are the boring part. The really intriguing part of Survivor is the social dynamics it explores. You need to fit in well, but not so well that you’re considered a threat. You need to lie to people, while keeping yourself on their good side. It’s a game full of contradictions and I can’t get enough.</p>
 <p>One day, when I was studying at Young Research Library at UCLA, I took a bathroom break and noticed a flyer on the stall door. It was promoting a club called Survivor @ UCLA. They plan, film, and produce their own mini version of the show – complete with challenges, advantages, blindsides, and one sole survivor. After some encouragement from my friends, I sent in an application to be a contestant and was accepted!</p>

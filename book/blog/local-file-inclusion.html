@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>*** TODO: Microcorruption - Audrey Emis Website</title>
+        <title>Local File Inclusion - Audrey Emis Website</title>
 
 
         <!-- Custom HTML head -->
@@ -175,16 +175,27 @@
 
                 <div id="content" class="content">
                     <main>
-                        
+                        <h1 id="cyber-academy-local-file-inclusion"><a class="header" href="#cyber-academy-local-file-inclusion">Cyber Academy: Local File Inclusion</a></h1>
+<p>by Audrey Emis</p>
+<p>The Linux File System has some built in directories that every directory (even seemingly empty ones) have! . represents the current directory and ../ represents the parent directory. Some web apps take file paths as inputs from users, which can lead to sensitive data being uncovered if the user puts in the right input. They can use "../" to get to parent directories, all the wayup to the root directory, where many more files are accessible. This vulnerability is caused by weak input sanitization or other interesting loopholes in the code. Today, we'll learn about LFI and work through some challenges that cover different LFI techniques!</p>
+<h2 id="slides"><a class="header" href="#slides">Slides</a></h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRyZ-0qMoZTTIo1To4MEzs6Rj3PNNhWQyRKakHJfeZkUSiyF_sqz9m01iABEp3W768cxogKg3_ufK6E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" style="aspect-ratio: 16 / 10;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<p>The following are great resources for learning about LFI, mitigations, and bypasses.</p>
+<ul>
+<li><a href="https://portswigger.net/web-security/file-path-traversal#what-is-path-traversal">Portswigger's Path Traversal Lesson</a>: Portwigger is a great resource for all kinds of web security. There are explanations and challenges for LFI at this link.</li>
+<li><a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion">HackTricks File Inclusion/Path Traversal</a>: Great post that explains common LFI techniques and how to bypass certain mitigations.</li>
+</ul>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../blog/security-plus.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../blog/intro-to-linux.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../blog/process-injection.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../blog/physical-pentesting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -194,11 +205,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../blog/security-plus.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../blog/intro-to-linux.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../blog/process-injection.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../blog/physical-pentesting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
